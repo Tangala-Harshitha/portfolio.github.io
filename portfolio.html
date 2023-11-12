@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="my portfolio">
+    <meta http-equiv="x-ua-Compatable" content="IE=edge">
+    <meta name="viewport" content="width-device-width,initial-scale=1">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body> 
+<div class="header">
+    <div class="container">
+        <nav> 
+             <img src="logo.jpg" width="200px" height="200px" class="1ogo"> 
+            <ul id="sidemenu">
+                <li><a href="#header" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Mywork">MY work</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <i class="bi bi-x-circle-fill" onclick="closemenu()"></i>
+            </ul>
+            <i class="bi bi-list" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Frontend Developer</p>
+            <h1>Hi,I'm <br><span>HARSHITHA  TANGALA</span></h1>
+        </div>
+    </div>
+</div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="photo.jpg">
+                </div>
+                <div class="col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Seeking a challenging career opportunity and being a part of progressive organization 
+                        that encourage me to expand knowledge alongside being conductive to enhancing the organization’s success  </p>
+                        <div class="title-contents active-title" id="skills">
+                            <p class="title-links">Skills</p>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>PYTHON</li>
+                                <li>SQL</li>
+                            </ul>
+                        </div>
+                      <div class="title-contents" id="education">
+                        <p class="title-links bi bi-mortarboard-fill">Education</p>
+                        <ul>
+                            <li>2020-2023</li>
+                            <p> B.Sc at Shri GNANAMBICA Degree College</p>
+                            <li>2017-2019</li>
+                            <p>MPC at BHARATHI junior College</p>
+                            <li>2016-2017</li>
+                            <p>SSC at ADARSHA VIDYALAYA E.M High School</p>
+                        </ul>
+                      </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="body" id="Mywork">
+        <h1 class="sub-title1">My work</h1>
+        <div class="image-container" style="transform: perspective(1000px) rotateX('45deg');">
+        <!-- <span style="--i:1">
+        <img src="https://img.myloview.com/stickers/data-analysis-business-intelligence-analytics-internet-technology-concept-400-156869162.jpg" ></span>  -->
+        <span style="--i:2">
+        <img src="https://1.bp.blogspot.com/-1-sXyBG9Vqg/XvYUbEgqCXI/AAAAAAAAAiA/iFY-BoiyRI00TD5m1n0iU-IzzrcB3XcvwCLcBGAsYHQ/s640/studentpart1.jpg"  height="150px"></span>
+        <span style="--i:3">
+        <img src="https://www.graphicmania.net/wp-content/uploads/09072011/final.jpg" height="150px"></span>
+            <span style="--i:4">
+            <img src="https://3.bp.blogspot.com/-A-MiP9GCjZs/XNmNGbE5wRI/AAAAAAAAAv0/VT6FOA1YEMoYPRgwvCwvpewazP9ogA4gACLcBGAs/s1600/currency.PNG"></span>
+            <span style="--i:5">
+                <img src="data:image/jpeg;base64,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"></span>
+                <span style="--i:6">
+                <img src="https://static.javatpoint.com/javascriptpages/images/palindrome-in-javascript9.png"></span>
+                <span style="--i:7">
+                <img src="https://i.stack.imgur.com/pw5X0.jpg"></span>
+                <span style="--i:8">
+                <img src="https://marketbusinessnews.com/wp-content/uploads/2015/07/Portfoli.jpg"></span>
+            </div>
+        </div>
+        <div class="btn-container">
+            <button class="btn" id="prev">Prev</button>
+            <button class="btn" id="next">Next</button>
+        </div>
+        <div id="Contact">
+        <div class="container">
+        <div class="row">
+        <div class="contact-left">
+        <h1 class="sub-title">Contact </h1>
+        <p><h3>HARSHITHA TANGALA</h3></p>
+        <p><span style='font-size:20px;'>&#128231; :harshithatangala1234@gamil.com</span></p>
+        <p><span style='font-size:15px;'>&#128222; :+917995939987</span></p>
+        <div class="social-icons">
+            <a href="# linkedin">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="#">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="bi bi-facebook"></i>
+            </a>
+        </div>
+        <a href="#" download class="btn btn1">Download CV</a>
+     </div>
+     <div class="contact-right">
+        <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="mail" placeholder="Your email" required>
+            <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn1">submit</button>
+        </form>
+        </div>
+        </div>
+     </div>
+     <div class="copyright">
+        <p>"@copyright.powered by HARSHITHA TANGALA"
+            <i class="bi bi-heart-fill"></i>
+        </p>
+     </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
